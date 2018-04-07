@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GuiAdventuraBaganova.jnlp">
+  <information>
+    <title>GuiAdventuraBaganova</title>
+    <vendor>Hed94</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="GuiAdventuraBaganova.jar" size="998856" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="GuiAdventuraBaganova" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="com.github.Baganova.AdventuraSemestralka.main.GuiAdventura"  name="GuiAdventuraBaganova" />
+  <update check="always"/>
+</jnlp>
